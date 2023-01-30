@@ -169,13 +169,14 @@ body {
   background-size: cover;
 }
 .slider-container .gla-logo{
-  width: 180px;
+  width: 0px;
   position: absolute;
   top: 2em;
   left: 3em;
   height: 106px;
-  background-image: url(../img/gla-logo-bleu-1.webp);
+  background-image: url(../img/GLA.svg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+
 }
