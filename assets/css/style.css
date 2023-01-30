@@ -10,14 +10,18 @@ body {
 #hero-slider .slick-active .slider-text {
   animation: fadeInUp;
   animation-duration: 2s;
-  /* animation-delay: 2; */
+  animation-delay: 4s;
 }
+
 .text-black {
   color: #2f2f47;
 }
 .taged-text {
-  background-color: rgba(21, 49, 102, 0.43);
+  background-color:rgba(30, 134, 45, 0.45);
   padding: 0.3em;
+}
+.taged-text2{
+  background-origin: rgb(255, 255, 0,0.45);
 }
 #hero-slider {
   font-size: 1em;
@@ -61,18 +65,24 @@ body {
 }
 #hero-slider .slider1 {
   background-image: url(../img/slide1.jpg);
+  animation: fadeOut;
+    animation-duration: 2s;
 }
 #hero-slider .slider2 {
   background-image: url(../img/slide2.jpg);
 }
 #hero-slider .slider3 {
   background-image: url(../img/slide3.jpg);
+    animation: fadeOut;
+    animation-duration: 2s;
 }
 #hero-slider .slider4 {
   background-image: url(../img/slide4.jpg);
 }
 #hero-slider .slider5 {
   background-image: url(../img/slide5.jpg);
+    animation: fadeOut;
+    animation-duration: 2s;
 }
 
 #hero-slider .slick-prev,
@@ -101,7 +111,7 @@ body {
   bottom: 2em;
   display: flex;
   flex-direction: column;
-  background-color: rgba(21, 49, 102, 0.43);
+  background-color: rgba(30, 134, 45, 0.45);
   border-radius: 18px;
   gap: 1em;
   padding: 2em 5.4em;
