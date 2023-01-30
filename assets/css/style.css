@@ -67,6 +67,9 @@ body {
 #hero-slider .slider3 {
   background-image: url(../img/slide3.jpg);
 }
+#hero-slider .slider4 {
+  background-image: url(../img/slide4.jpg);
+}
 
 #hero-slider .slick-prev,
 #hero-slider .slick-next {
@@ -160,6 +163,17 @@ body {
   top: 2em;
   right: 3em;
   background-image: url(../img/Applez-nous.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-container .gla-logo{
+  width: 180px;
+  position: absolute;
+  top: 2em;
+  left: 3em;
+  height: 106px;
+  background-image: url(../img/gla-logo-bleu-1.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
