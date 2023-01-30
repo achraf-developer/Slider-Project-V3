@@ -59,17 +59,15 @@ body {
   height: 660px;
 }
 #hero-slider .slider1 {
-  background-image: url(../img/slide3.jpg);
+  background-image: url(../img/slide1.jpg);
 }
 #hero-slider .slider2 {
-  background-image: url(../img/slide4.jpg);
+  background-image: url(../img/slide2.jpg);
 }
 #hero-slider .slider3 {
-  background-image: url(../img/slide5.jpg);
+  background-image: url(../img/slide3.jpg);
 }
-#hero-slider .slider4 {
-  background-image: url(../img/slide6.jpg);
-}
+
 #hero-slider .slick-prev,
 #hero-slider .slick-next {
   width: 44px !important;

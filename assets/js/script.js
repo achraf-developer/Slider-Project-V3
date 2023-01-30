@@ -10,8 +10,6 @@ $(document).ready(function () {
     cssEase: "ease",
     easing:'linear',
     draggable:false,
-
-
     slidesToShow: 1,
     //     adaptiveHeight: true,
   });
