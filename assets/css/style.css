@@ -21,7 +21,6 @@ body {
 }
 #hero-slider {
   font-size: 1em;
-
   color: #ffffff;
 }
 
@@ -48,6 +47,8 @@ body {
   font-style: normal;
   letter-spacing: 0;
   text-shadow: 1px 1px 2px #ffffff45;
+  max-width: 900px;
+  line-height: 1.2;
 }
 #hero-slider .slider-bg {
   background-position: 50% 50%;
