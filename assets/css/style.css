@@ -47,7 +47,7 @@ body {
   font-style: normal;
   letter-spacing: 0;
   text-shadow: 1px 1px 2px #ffffff45;
-  max-width: 900px;
+  max-width: 850px;
   line-height: 1.2;
 }
 #hero-slider .slider-bg {
@@ -70,6 +70,9 @@ body {
 }
 #hero-slider .slider4 {
   background-image: url(../img/slide4.jpg);
+}
+#hero-slider .slider5 {
+  background-image: url(../img/slide5.jpg);
 }
 
 #hero-slider .slick-prev,
