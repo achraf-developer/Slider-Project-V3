@@ -21,7 +21,8 @@ body {
   padding: 0.3em;
 }
 .taged-text2{
-  background-origin: rgb(255, 255, 0,0.45);
+  background-color: rgba(255, 255, 0,0.7);
+  padding: 0.3em;
 }
 #hero-slider {
   font-size: 1em;
@@ -154,20 +155,20 @@ body {
   min-width: 48px;
   background: transparent;
   margin: 10px 20px;
-  border: 2px solid white;
+  border: 2px solid hsl(0, 0%, 100%);
   font-weight: 400;
   font-size: 16px;
-  color: white;
+  color: hsl(0, 0%, 100%);
   transition: all 350ms 150ms ease-in-out;
 }
 .slider-container .form-container button:hover {
-  border-color: #2f2f47;
-  background-color: #2f2f47;
+  border-color: hsl(240, 20%, 23%);
+  background-color: hsl(240, 20%, 23%);
 }
 .slider-container .form-container input::placeholder {
   font-size: 1em;
   font-weight: 400;
-  color: #13438c;
+  color: hsl(216, 76%, 31%);
   font-family: "Montserrat", sans-serif;
 }
 .slider-container .applez-nous {
