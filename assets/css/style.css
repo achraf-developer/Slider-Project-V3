@@ -53,7 +53,7 @@ body {
   letter-spacing: 0;
   text-shadow: 1px 1px 2px #ffffff45;
   max-width: 850px;
-  line-height: 1.2;
+  line-height: 2.1em;
 }
 #hero-slider .slider-bg {
   background-position: 50% 50%;
@@ -94,6 +94,7 @@ body {
   z-index: 10000;
 }
 #hero-slider .slick-prev {
+
   left: 0 !important;
   /* border-radius: 0 5px 5px 0; */
 }
@@ -144,6 +145,7 @@ body {
 }
 .slider-container .form-container select {
   padding: 0 1em;
+  text-transform: uppercase;
 }
 .slider-container .form-container select option {
   padding: 0 1em;
@@ -160,6 +162,7 @@ body {
   font-size: 16px;
   color: hsl(0, 0%, 100%);
   transition: all 350ms 150ms ease-in-out;
+
 }
 .slider-container .form-container button:hover {
   border-color: hsl(240, 20%, 23%);
@@ -170,6 +173,7 @@ body {
   font-weight: 400;
   color: hsl(216, 76%, 31%);
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 .slider-container .applez-nous {
   width: 508px;
@@ -183,14 +187,12 @@ body {
   background-size: cover;
 }
 .slider-container .gla-logo{
-  width: 0px;
   position: absolute;
   top: 2em;
-  left: 3em;
+  left: 10em;
   height: 106px;
   background-image: url(../img/GLA.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
