@@ -163,7 +163,6 @@ body {
   font-size: 16px;
   color: hsl(0, 0%, 100%);
   transition: all 350ms 150ms ease-in-out;
-
 }
 .slider-container .form-container button:hover {
   border-color: hsl(240, 20%, 23%);
@@ -197,3 +196,42 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* End section faq  */
+@media only screen and (max-width: 400px) {
+  body{
+    font-size: 9px;
+  }
+  .slider-container .applez-nous{
+    background-image:url(../img/Applez-nous-version-mobile.jpg);
+    width:  267px;
+    height: 56px;
+    top: 1em;
+    right:0px;
+  }
+  .slider-container .form-container h1{
+    color: white;
+  }
+  .slider-container .form-container{
+    display: block !important;
+    position: relative;
+    bottom: 7em;
+  }
+ 
+  #hero-slider .slider{
+    width: 100vw;
+    height: 500px;
+  }
+  #form-slider  {
+    
+    flex-direction: column;
+    gap: 13px;
+  }
+  #hero-slider .slick-prev,
+#hero-slider .slick-next {
+  width: 31px !important;
+  height: 45px !important;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  z-index: 10000;
+}
+}
+
